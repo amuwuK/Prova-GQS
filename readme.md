@@ -11,24 +11,24 @@ No Postman, para utilizar os metodos POST, ir na aba "body", selecionar a opçã
 
 Exemplo de POST em /pedidos:
 <p>
-{
-  "endereco": {
-    "rua": "Rua A",
-    "numero": "123"
-  },
-  "latitude": 10,
-  "longitude": 15,
-  "produto": "Coquinha",
-  "quantidade": 12
-}
+<br>{
+<br>  "endereco": {
+<br>    "rua": "Rua A",
+<br>    "numero": "123"
+<br>  },
+<br>  "latitude": 10,
+<br>  "longitude": 15,
+<br>  "produto": "Coquinha",
+<br>  "quantidade": 12
+<br>}
 </p>
 
 Exemplo de POST em /rotas:
 <p>
-{
-  "latitude": 10,
-  "longitude": 15
-}
+<br>{
+<br>  "latitude": 10,
+<br>  "longitude": 15
+<br>}
 </p>
 
 Exemplo de GET em /melhor-rota:
