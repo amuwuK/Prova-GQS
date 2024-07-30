@@ -11,7 +11,7 @@ No Postman, para utilizar os metodos POST, ir na aba "body", selecionar a opçã
 
 Exemplo de POST em /pedidos:
 <p>
-<br>{
+{
 <br>  "endereco": {
 <br>    "rua": "Rua A",
 <br>    "numero": "123"
@@ -25,7 +25,7 @@ Exemplo de POST em /pedidos:
 
 Exemplo de POST em /rotas:
 <p>
-<br>{
+{
 <br>  "latitude": 10,
 <br>  "longitude": 15
 <br>}
