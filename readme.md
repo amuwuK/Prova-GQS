@@ -10,6 +10,7 @@ Metodos POST em: /pedidos e /rotas.
 No Postman, para utilizar os metodos POST, ir na aba "body", selecionar a opção raw no tipo JSON.
 
 Exemplo de POST em /pedidos:
+<p>
 {
   "endereco": {
     "rua": "Rua A",
@@ -20,12 +21,15 @@ Exemplo de POST em /pedidos:
   "produto": "Coquinha",
   "quantidade": 12
 }
+</p>
 
 Exemplo de POST em /rotas:
+<p>
 {
   "latitude": 10,
   "longitude": 15
 }
+</p>
 
 Exemplo de GET em /melhor-rota:
 localhost:3000/melhor-rota/1
